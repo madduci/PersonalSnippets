@@ -14,4 +14,5 @@ rm *.tar.*
 
 echo "Setting .bashrc configuration"
 echo "LD_LIBRARY_PATH=/frameworks/OpenNI2/Redist:$LD_LIBRARY_PATH" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH" >> ~/.bashrc
+export LD_LIBRARY_PATH
