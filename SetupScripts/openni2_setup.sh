@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /frameworks
 echo "Installing OpenNI2 2.2.0.33"
 wget https://dl.dropboxusercontent.com/u/25908840/OpenNI_Linux/OpenNI-Linux-x64-2.2.0.33.tar.zip
 unzip OpenNI-Linux-x64-2.2.0.33.tar.zip && tar xfj OpenNI-Linux-x64-2.2.tar.bz2

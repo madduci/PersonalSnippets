@@ -1,11 +1,11 @@
 #!/bin/bash
 echo "Updating your machine first..."
-apt-get update && apt-get dist-upgrade -y
+pacman -Syyu
 
 echo "Installing Basic Development Tools"
 
-apt-get install build-essential cmake cmake-curses-gui pkg-config git subversion -y
-apt-get install python-dev python-numpy -y
+pacman -S cmake git gcc
+pacman -S python python-numpy
 
 echo "Creating Frameworks folder"
 

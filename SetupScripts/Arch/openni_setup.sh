@@ -3,10 +3,9 @@
 cd /frameworks
 
 echo "Installing required libraries for OpenNI"
-apt-get install freeglut3-dev graphviz-dev libv4l-dev -y
+pacman -S freeglut graphviz v4l-utils
 
 echo "Downloading OpenNI 1.5.4.0 with avin2 patch"
-
 mkdir /frameworks/OpenNI
 cd /frameworks/OpenNI
 wget https://dl.dropboxusercontent.com/u/25908840/OpenNI_Linux/OpenNI-Bin-Dev-Linux-x64-v1.5.4.0.tar.zip

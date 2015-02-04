@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Installing required libraries"
-apt-get install libboost-all-dev libflann-dev libqhull-dev libvtk6-dev -y
+pacman -S boost-libs vtk qhull
+yaourt -S flann
 
 echo "Configuring Point Cloud Library (with OpenNI and OpenNI2)"
 cd /frameworks
