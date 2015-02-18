@@ -4,7 +4,7 @@ pacman -Syyu
 
 echo "Installing Basic Development Tools"
 
-pacman -S cmake git gcc
+pacman -S cmake git gcc-multilib gdb valgrind
 pacman -S python python-numpy
 
 echo "Creating Frameworks folder"
