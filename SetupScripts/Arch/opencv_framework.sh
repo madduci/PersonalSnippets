@@ -1,10 +1,10 @@
 #!/bin/bash
 
 echo "Installing required libraries"
-pacman -S libx264 ffmpeg faac
-pacman -S gst-libav gst-plugins-base gst-plugins-bad gst-plugins-good opencore-amr libva zlib
-pacman -S libtiff libjpeg-turbo libusb eigen
-pacman -S gtkglext gtkglextmm
+pacman -S libx264 ffmpeg faac --noconfirm
+pacman -S gst-libav gst-plugins-base gst-plugins-bad gst-plugins-good opencore-amr libva zlib --noconfirm
+pacman -S libtiff libjpeg-turbo libusb eigen --noconfirm
+pacman -S gtkglext gtkglextmm --noconfirm
 
 echo "Downloading and configuring OpenCV (with OpenGL)"
 

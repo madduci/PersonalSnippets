@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Installing required libraries"
-pacman -S boost-libs vtk qhull
-yaourt -S flann
+pacman -S boost-libs vtk qhull --noconfirm
+yaourt -S flann --noconfirm
 
 echo "Configuring Point Cloud Library (with OpenNI and OpenNI2)"
 cd /frameworks

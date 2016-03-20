@@ -3,7 +3,7 @@
 cd /frameworks
 
 echo "Installing required libraries for OpenNI"
-pacman -S freeglut graphviz v4l-utils
+pacman -S freeglut graphviz v4l-utils --noconfirm
 
 echo "Downloading OpenNI 1.5.4.0 with avin2 patch"
 mkdir /frameworks/OpenNI

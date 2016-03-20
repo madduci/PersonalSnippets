@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Installing OpenSSH"
-sudo pacman -S openssh
+sudo pacman -S openssh --noconfirm
 echo "Deleting existing host keys, if any"
 sudo rm /etc/ssh/ssh_host_*
 echo "Generating new Host keys"
